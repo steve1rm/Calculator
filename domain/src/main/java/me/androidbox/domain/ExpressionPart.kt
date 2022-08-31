@@ -1,0 +1,12 @@
+package me.androidbox.domain
+
+sealed interface ExpressionPart {
+    data class Number(val number: Double): ExpressionPart
+    data class CalculationOperation(val operation: Operation): ExpressionPart
+    data class Parentheses(val type: ParenthesesType): ExpressionPart
+}
+
+sealed interface ParenthesesType {
+    object Opening: ParenthesesType
+    object Closing: ParenthesesType
+}
