@@ -5,7 +5,7 @@ import java.lang.IllegalArgumentException
 enum class Operation(val symbol: Char) {
     ADD('+'),
     SUBTRACT('-'),
-    MULTIPLY('X'),
+    MULTIPLY('x'),
     DIVIDE('/'),
     PERCENT('%')
 }
