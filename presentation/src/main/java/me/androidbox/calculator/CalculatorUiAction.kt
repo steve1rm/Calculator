@@ -4,8 +4,8 @@ import androidx.compose.runtime.Composable
 import me.androidbox.domain.CalculatorAction
 
 data class CalculatorUiAction(
-    val text: String,
-    val highLightLeve: HighLightLevel,
+    val text: String?,
+    val highLightLevel: HighLightLevel,
     val calculatorAction: CalculatorAction,
     val content: @Composable () -> Unit = {}
 )
