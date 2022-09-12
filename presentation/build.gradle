@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "me.androidbox.calculator"
-        minSdk 21
+        minSdk 31
         targetSdk 32
         versionCode 1
         versionName "1.0.0"
