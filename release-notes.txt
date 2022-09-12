@@ -1,0 +1,2 @@
+-This is the first sample release notes feature 1
+-This is the second sample release notes feature 2
